@@ -1,7 +1,7 @@
 import subprocess
 import requests
 
-urls = ["https://release.clx.lawgix-dev.com/", "https://www.linkedin.com/"]
+urls = ["https://www.google.com/", "https://www.linkedin.com/"]
 
 appleScriptCommand = '''
 on run argv
@@ -19,11 +19,5 @@ def url_health_check(url_list):
         if str(r.status_code) != "200":
             notification_message += str(r.status_code) + "  " + url + "\n"
             notify("Site Health Check Alert", notification_message)
-
-    #Use below if you want an alert even if there are no issues, can be annoying if running frequently -MJ
-    # if (notification_message == ""):
-    #     notification_message = "No issues found! Get some coffee!"
-    
-    # notify("Site Health Check Alert", notification_message)
 
 url_health_check(urls)
