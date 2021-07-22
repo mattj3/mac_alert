@@ -10,7 +10,8 @@
 - Add in `str(r.elapsed.total_seconds())` for longer 200 responses
 
 ## Optional 
-```#Use below if you want an alert even if there are no issues, can be annoying if running frequently -MJ
-# if (notification_message == ""):
-#     notification_message = "No issues found! Get some coffee!"
+```
+#Use below if you want an alert even if there are no issues, can be annoying if running frequently -MJ
+if (notification_message == ""):
+    notification_message = "No issues found! Get some coffee!"
 ```
