@@ -1,4 +1,6 @@
 # macAlert
+Simple script to produce a macOS alert if a provided url does not give a 200 response. 
+Pair with crontab to automate checks. 
 
 ## References
 - https://stackoverflow.com/questions/17651017/python-post-osx-notification
