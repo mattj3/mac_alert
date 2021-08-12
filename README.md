@@ -1,5 +1,5 @@
 # macAlert
-Simple script to produce a macOS alert if a provided url does not give a 200 response. 
+Simple script to produce a macOS alert (banner) if a provided url does not give a 200 response. 
 Pair with crontab to automate checks. 
 
 ## References
