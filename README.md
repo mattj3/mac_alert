@@ -3,7 +3,7 @@ Simple script to produce a macOS alert (banner) if a provided url does not give 
 Pair with crontab to automate checks. 
 
 ## References
-- https://stackoverflow.com/questions/17651017/python-post-osx-notification
+- stackoverflow dot com slash questions slash 17651017 slash python-post-osx-notification
 
 ## Feature Improvement Ideas 
 - Add audible alert 
