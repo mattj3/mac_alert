@@ -1,4 +1,4 @@
-# macAlert
+# mac_alert
 Simple script to produce a macOS alert (banner) if a provided url does not give a 200 response. 
 Pair with crontab to automate checks. 
 
@@ -13,7 +13,7 @@ Pair with crontab to automate checks.
 
 # Optional 
 ```
-#Use below if you want an alert even if there are no issues, can be annoying if running frequently -MJ
+# Use below if you want an alert even if there are no issues, can be annoying if running frequently -MJ
 if (notification_message == ""):
     notification_message = "No issues found! Get some coffee!"
 ```
